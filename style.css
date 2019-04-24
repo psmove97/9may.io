@@ -1,0 +1,81 @@
+body{
+	background:url(https://images.wallpaperscraft.ru/image/9_maya_pobeda_prazdnik_foto_zvezda_golubi_samolety_35720_1920x1080.jpg);
+	background-size: cover;
+	font-family: 'Caveat', cursive;
+}
+header{
+
+ width: 100%;
+ background-color: rgba(238,66,62,0.7);
+ height: 70px;
+ margin-bottom: 5em;
+
+}
+
+
+h1{
+	text-align: center;
+	color: #82DDD0;
+	
+}
+a{
+	text-decoration: none !important;
+	color: #82DDD0;
+}
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: inline-block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 3em;
+width: 3em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgba(250,250,250,0.9);
+ font-size: 2em;
+ border-radius: 10px; 
+}
+
+
+#carouselExampleControls{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 25%;
+}
